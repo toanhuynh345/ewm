@@ -1,6 +1,7 @@
 
 var rpWeb =  angular.module('rpWeb', [
-	// Custom modules
+	'ngRoute',
+		// Custom modules
 	'rpWeb.configs',
 	'rpWeb.services',
 	'rpWeb.controllers',
